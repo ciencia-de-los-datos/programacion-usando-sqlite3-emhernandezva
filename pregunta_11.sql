@@ -38,3 +38,9 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select YEAR(C14) as 'YEAR',count(*) as 'CANT' 
+from
+tbl1
+group by  YEAR(C14)
+having YEAR(c14)=2018
+
