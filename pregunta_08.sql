@@ -44,4 +44,4 @@
 select strftime('%Y', c23) as "YEAR" , avg(c21) 
 from 
 tbl2
-group by c23
+group by strftime('%Y', c23)

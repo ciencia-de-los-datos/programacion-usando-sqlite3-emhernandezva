@@ -41,7 +41,7 @@
 select strftime('%Y', C14) AS "YEAR" ,count(*)  
 from
 tbl1
-where strftime('%Y', C14)=2018
+where strftime('%Y', C14)='2018'
 group by  C14
 
 
