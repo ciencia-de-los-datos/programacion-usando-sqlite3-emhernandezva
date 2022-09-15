@@ -38,6 +38,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-select * from tbl2 
+select * 
+from tbl2 
 where
-c21 = (select min (c21) from tbl2)
+c21 = (select min(c21) from tbl2)
