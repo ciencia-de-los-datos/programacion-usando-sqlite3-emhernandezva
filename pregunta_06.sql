@@ -43,4 +43,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-select *from tbl0 where K0='A' order by c14 asc
+select *from tbl1 where K0='A' order by c14

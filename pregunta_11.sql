@@ -41,6 +41,7 @@
 select YEAR(C14) ,count(*)  
 from
 tbl1
-group by  YEAR(C14)
-having YEAR(c14)=2018
+where YEAR(c14)=2018
+group by  C14
+
 

@@ -46,4 +46,4 @@
 select tbl1.K0, avg(tbl2.c21) 
 from tbl1, tbl2
 where tbl1.c13>400
-group by tbl1.K0, tbl2.c21 
+group by tbl1.K0
