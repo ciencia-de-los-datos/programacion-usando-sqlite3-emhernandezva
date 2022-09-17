@@ -43,7 +43,9 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-select tbl1.K0, avg(tbl2.c21) 
+select tbl1.K0, avg(tbl2.c21) as "avg(c21)" 
 from tbl1, tbl2
-where tbl1.c13>400
+where 
+tbl1.c13>400
+and tbl1.K1=tbl2.K1
 group by tbl1.K0

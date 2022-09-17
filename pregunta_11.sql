@@ -38,10 +38,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-select strftime('%Y', C14) AS "YEAR" ,count(*)  
+select COUNT(*)  
 from
 tbl1
 where strftime('%Y', C14)='2018'
-group by  C14
+group by  strftime('%Y', C14)
 
 
